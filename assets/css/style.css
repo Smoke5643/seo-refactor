@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* removed . to target header instead of class=header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/*Updated HTML to <nav> from <div> tag to be semantic. Changed here to match*/ 
+/*targeted nav instead of div*/ 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +34,24 @@ header nav {
     font-size: 20px;
 }
 
-/*Updated HTML to <nav> from <div> tag to be semantic. Changed here to match*/ 
 header nav ul {
     list-style-type: none;
 }
-
-/*Updated HTML to <nav> from <div> tag to be semantic. Changed here to match*/ 
+ 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* --------------------------- */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* added a hover state for links */
 a:hover{
-    /*added this to underline the link while hovering the mouse over them*/
     text-decoration: underline;
 }
 
@@ -90,28 +91,28 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-/*Merged these three elemenet selectors to reduce redundancy*/
+/*changed classes to benefit to reduce reducdancy*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Merged these three element selectors to reduce redundancy*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Merged these three element selectors to reduce redundancy*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* ----------------------------------------------------------*/
 
 /*Merged these three element selectors to reduce redundancy*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
@@ -123,16 +124,16 @@ p {
     color: #ffffff;
 }
 
-/*Merged these three element selectors to reduce redundancy*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/*Merged these three element selectors to reduce redundancy*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* --------------------------------------------------------- */
 
 .footer {
     padding: 30px;
