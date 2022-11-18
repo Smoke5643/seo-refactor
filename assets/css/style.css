@@ -24,13 +24,14 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+/*------------------------------------------------------ */
 
 /*targeted nav instead of div*/ 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -91,11 +92,11 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-/*changed classes to benefit to reduce reducdancy*/
+/*changed classes to benefit to reduce redundancy*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
